@@ -7,8 +7,8 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-    QImage image("/home/remy/carte_france_satellite.jpg");
-    BaatzAlgorithm ba(0.7,0.3,200);
+    QImage image("/home/remy/sf1.jpg");
+    BaatzAlgorithm ba(0.9,0.9,100000);
 
     uchar* ptr = image.bits();
     std::vector<uchar> pixels;
